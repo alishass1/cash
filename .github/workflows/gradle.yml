@@ -1,4 +1,4 @@
-echo 'name: Java CI with Gradle
+﻿name: Java CI with Gradle
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build' > .github/workflows/gradle.yml
+        run: ./gradlew build
